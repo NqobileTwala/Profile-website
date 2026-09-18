@@ -55,7 +55,7 @@ export const portfolioData = {
       title: "Product Filter App",
       description: "A React app for filtering products by name, category, and stock status. It demonstrates the use of React state management, conditional rendering, and dynamic filtering of data. The app is designed to be responsive and user-friendly.",
       tags: ["React", "JavaScript", "CSS", "Responsive Design"],
-      githubUrl: "https://github.com/NqobileTwala/Product-filter-app",
+      githubUrl: "https://github.com/NqobileTwala/Product-Filtering-App.git",
       featured: true,
     },
   ] as Project[],
