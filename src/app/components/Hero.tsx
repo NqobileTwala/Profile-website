@@ -45,7 +45,8 @@ export default function Hero() {
           <ArrowUpRight className="w-4 h-4" />
         </Link>
         <a
-          href="\portfolio\Nqobile Twala Curriculum Vitae.pdf"
+          href="/cv.pdf"
+          download="Nqobile_Twala_CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-800 bg-neutral-900/60 text-neutral-200 font-semibold text-sm hover:bg-neutral-800 hover:border-neutral-700 transition-all active:scale-[0.98]"
