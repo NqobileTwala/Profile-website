@@ -16,7 +16,7 @@ export const portfolioData = {
   personal: {
     name: "Nqobile Twala",
     role: "Business Information Technology Final Year Student",
-    tagline: "Building robust web platforms, efficient APIs, and scalable data-driven systems.",
+    tagline: "Applying modern web technologies to real business requirements; building robust platforms, efficient APIs, and data-driven systems.",
     location: "Johannesburg, South Africa",
     email: "nqobiletwala02@gmail.com",
     github: "https://github.com/NqobileTwala",
