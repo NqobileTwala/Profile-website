@@ -22,13 +22,13 @@ export const portfolioData = {
     github: "https://github.com/NqobileTwala",
     linkedin: "https://linkedin.com/in/nqobile-twala",
   },
-  about: `I am a full-stack developer with a strong foundation in business information systems. I specialize in turning complex workflow problems into clean, 
-  high-performance web applications using 
-  TypeScript, React, Node.js, and containerized cloud environments. Beyond code, I actively contribute to developer communities and tech leadership.`,
+  about: `Business Information Technology student at the University of Johannesburg with hands-on experience across software engineering, 
+  web architectures, and Agile methodologies. Through industry exposure at BBD Software Development and web development training with Umuzi Academy, 
+  I specialise in translating complex business requirements into scalable, practical digital solutions.`,
   skills: [
     {
-      title: "Frontend",
-      skills: ["TypeScript", "JavaScript", "React", "Next.js", "Tailwind CSS", "HTML5/CSS3"],
+      title: "Frontend & Web",
+      skills: ["TypeScript", "JavaScript", "React", "Next.js", "Tailwind CSS", "HTML5 & CSS3"],
     },
     {
       title: "Backend & Systems",
@@ -36,11 +36,11 @@ export const portfolioData = {
     },
     {
       title: "Databases & DevOps",
-      skills: ["PostgreSQL", "SQL", "Docker", "Git/GitHub"],
+      skills: ["PostgreSQL", "SQL & Relational Design", "Docker", "Git & GitHub", "Linux CLI"],
     },
     {
-      title: "Practices & Design",
-      skills: ["Agile/Scrum", "Relational Database Design", "UI/UX Prototyping", "Design Thinking", "Canva"],
+      title: "Business Analysis & Practices",
+      skills: ["Agile/Scrum Methodologies", "Business Requirements Elicitation", "Stakeholder Engagement", "Design Thinking & UI/UX", "Canva"],
     },
   ] as SkillCategory[],
   projects: [

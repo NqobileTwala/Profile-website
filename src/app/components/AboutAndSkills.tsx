@@ -6,10 +6,9 @@ import { portfolioData } from "../data/portfolio";
 export default function AboutAndSkills() {
   const { about, skills } = portfolioData;
 
-  // Icon mapping for skill categories
   const getCategoryIcon = (title: string) => {
     switch (title.toLowerCase()) {
-      case "frontend":
+      case "frontend & web":
         return <Layout className="w-5 h-5 text-emerald-400" />;
       case "backend & systems":
         return <Terminal className="w-5 h-5 text-emerald-400" />;
@@ -22,43 +21,40 @@ export default function AboutAndSkills() {
 
   return (
     <section id="about" className="py-20 max-w-6xl mx-auto px-6">
-      {/* Section Header */}
       <div className="flex flex-col mb-12">
         <span className="text-emerald-500 font-mono text-sm tracking-wider uppercase mb-2">
-          Background & Capabilities
+          Background & Toolkit
         </span>
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-neutral-100">
-          About & Technical Toolkit
+          About & Technical Capabilities
         </h2>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-        {/* About Bio (Left Column) */}
         <div className="lg:col-span-5 space-y-6 text-neutral-300 leading-relaxed text-base">
-          <p className="text-lg text-neutral-200 font-normal">
+          <p className="text-lg text-neutral-200 font-normal leading-relaxed">
             {about}
           </p>
-          <p className="text-neutral-400 text-sm">
-            My development philosophy centers around writing readable, maintainable code, architecting clean database schemas, and understanding how technical systems directly support business objectives.
+          <p className="text-neutral-400 text-sm leading-relaxed">
+            My background combines technical software engineering with business acumen. I focus on how software directly serves operational goals, enhances user workflows, and creates measurable stakeholder impact.
           </p>
 
           <div className="pt-4 border-t border-neutral-800 flex flex-col gap-3">
             <div className="flex items-center gap-3 text-sm text-neutral-300">
               <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-              <span>Full-stack architecture & relational database modeling</span>
+              <span>Industry experience at BBD Software Development</span>
             </div>
             <div className="flex items-center gap-3 text-sm text-neutral-300">
               <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-              <span>End-to-end API design & containerized deployments</span>
+              <span>Web development training with Umuzi Academy</span>
             </div>
             <div className="flex items-center gap-3 text-sm text-neutral-300">
               <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-              <span>Tech community involvement & leadership</span>
+              <span>Agile project execution & stakeholder collaboration</span>
             </div>
           </div>
         </div>
 
-        {/* Skills Grid (Right Column) */}
         <div id="skills" className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-5">
           {skills.map((category, idx) => (
             <div
