@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Check, Copy, Mail, MapPin, Send } from "lucide-react";
+import { Check, Copy, MapPin, Send } from "lucide-react";
 import { portfolioData } from "../data/portfolio";
 
 export default function Contact() {
@@ -14,7 +14,6 @@ export default function Contact() {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // Fallback if clipboard API fails
       setCopied(false);
     }
   };
@@ -31,10 +30,10 @@ export default function Contact() {
               Get In Touch
             </span>
             <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-neutral-100 mt-2">
-              Let&apos;s build something exceptional together.
+              Looking for graduate programmes in any tech roles.
             </h2>
             <p className="mt-4 text-neutral-400 text-base leading-relaxed">
-              I am open to full-time roles, software engineering opportunities, and collaborative initiatives. Whether you have a project in mind or just want to connect, my inbox is always open.
+              I am completing my final year in Business Information Technology at The University of Johannesburg and am actively seeking graduate software development, data or business analysis, and any other technology positions. Let&apos;s discuss how I can contribute to your team.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -46,7 +45,6 @@ export default function Contact() {
                 <Send className="w-4 h-4" />
               </a>
 
-              {/* Copy Email Button */}
               <button
                 type="button"
                 onClick={copyToClipboard}
@@ -68,12 +66,11 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Footer Bottom */}
         <footer className="mt-16 pt-8 border-t border-neutral-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
           <p>© {new Date().getFullYear()} {personal.name}. All rights reserved.</p>
           <div className="flex items-center gap-2">
             <MapPin className="w-3.5 h-3.5 text-neutral-500" />
-            <span>Designed & Engineered in {personal.location}</span>
+            <span>University of Johannesburg • {personal.location}</span>
           </div>
         </footer>
       </div>
