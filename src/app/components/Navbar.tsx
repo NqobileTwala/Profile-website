@@ -16,7 +16,6 @@ export default function Navbar() {
           <span className="text-emerald-500">.</span>
         </Link>
 
-        {/* Section Links */}
         <div className="hidden md:flex items-center space-x-8 text-sm font-medium text-neutral-400">
           <Link href="#about" className="hover:text-neutral-100 transition-colors">
             About
@@ -32,9 +31,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Social Icons */}
         <div className="flex items-center space-x-4 text-neutral-400">
-          {/* GitHub SVG */}
           <a
             href={portfolioData.personal.github}
             target="_blank"
@@ -55,7 +52,6 @@ export default function Navbar() {
             </svg>
           </a>
 
-          {/* LinkedIn SVG */}
           <a
             href={portfolioData.personal.linkedin}
             target="_blank"
@@ -72,7 +68,6 @@ export default function Navbar() {
             </svg>
           </a>
 
-          {/* Mail */}
           <a
             href={`mailto:${portfolioData.personal.email}`}
             aria-label="Email"

@@ -12,7 +12,6 @@ export default function Hero() {
       id="hero" 
       className="pt-36 pb-20 md:pt-48 md:pb-28 max-w-6xl mx-auto px-6 flex flex-col items-start"
     >
-      {/* Availability / Location Pill */}
       <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-neutral-800 bg-neutral-900/60 text-xs font-medium text-neutral-300 mb-8">
         <span className="relative flex h-2 w-2">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
@@ -24,18 +23,15 @@ export default function Hero() {
         </span>
       </div>
 
-      {/* Main Headline */}
       <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-neutral-100 max-w-4xl leading-[1.1]">
         Hi, I&apos;m {personal.name}. <br />
         <span className="text-neutral-400">{personal.role}.</span>
       </h1>
 
-      {/* Tagline */}
       <p className="mt-6 text-lg sm:text-xl text-neutral-400 max-w-2xl leading-relaxed">
         {personal.tagline}
       </p>
 
-      {/* Action Buttons */}
       <div className="mt-10 flex flex-wrap items-center gap-4">
         <Link
           href="#projects"

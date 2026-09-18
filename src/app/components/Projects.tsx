@@ -8,7 +8,6 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-20 max-w-6xl mx-auto px-6">
-      {/* Section Header */}
       <div className="flex flex-col mb-12">
         <span className="text-emerald-500 font-mono text-sm tracking-wider uppercase mb-2">
           Featured Work
@@ -29,7 +28,6 @@ export default function Projects() {
             className="group relative flex flex-col justify-between p-7 rounded-2xl border border-neutral-800/80 bg-neutral-900/40 hover:bg-neutral-900/70 hover:border-neutral-700 transition-all duration-300"
           >
             <div>
-              {/* Top Icons & Action Links */}
               <div className="flex items-center justify-between mb-6">
                 <div className="p-2.5 rounded-lg bg-neutral-800/60 border border-neutral-700/50 text-emerald-400">
                   <FolderGit2 className="w-5 h-5" />
@@ -70,7 +68,6 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Title & Description */}
               <h3 className="text-xl font-semibold text-neutral-100 group-hover:text-emerald-400 transition-colors">
                 {project.title}
               </h3>
@@ -79,7 +76,6 @@ export default function Projects() {
               </p>
             </div>
 
-            {/* Tech Tags */}
             <div className="mt-8 flex flex-wrap gap-2">
               {project.tags.map((tag, tagIndex) => (
                 <span
